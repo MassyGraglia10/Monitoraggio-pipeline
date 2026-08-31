@@ -6,8 +6,8 @@ import urllib.parse
 import re
 
 # --- CONFIGURAZIONE ---
-PAT = "C2IOyo7XbxiJiQWjP6O0uxiZ9NWSeVsgIuyI6T5OCqyElje9mIzIJQQJ99CHACAAAAA4D5C9AAASAZDO4YEZ"
-ORGANIZATION = "realeitesorg"
+PAT = st.secrets["AZURE_PAT"]
+ORGANIZATION = st.secrets["AZURE_ORG"]
 EXCEL_FILE = "Rilascio  evolutivo 09_2026- Copia.xlsx"
 
 EXCLUDED_PROD_PIPELINES = [
